@@ -12,7 +12,7 @@ class Student
     sql = <<- SQL
       CREATE TABLE IF NOT EXISTS students (
 
-      );
+      )
       SQL
 
       DB[:conn].execute(sql)
